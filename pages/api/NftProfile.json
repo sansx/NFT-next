@@ -1,0 +1,120 @@
+{
+  "name": "MooMoo",
+  "description": "I love to Moo",
+  "image": "ipfs://bafkreiaa3uormw4ettmc737eovsnwchw2cy4ndbxoq6ekzo6yoglktqwyq",
+  "animation_url": "ipfs://bafkreieqvjrkoa3oy2iyxwnknpzh3r4rmqjzkghvbf52ugwbyu4kwf6jwi",
+  "attributes": [
+    {
+      "id": 1,
+      "trait_type": "Title",
+      "value": "Moo man"
+    },
+    {
+      "id": 2,
+      "trait_type": "Company",
+      "value": "Moo Gang"
+    },
+    {
+      "id": 4,
+      "trait_type": "Skills",
+      "value": "Public Speaking"
+    },
+    {
+      "id": 3,
+      "trait_type": "Location",
+      "value": "Moo Farm"
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Product",
+      "value_type": "Skills",
+      "value": 1,
+      "signs": {
+        "0x3a86E9C1947f9ff49Abf2bCC3301008165636a5D": {
+          "domain": {
+            "name": "Vouch for MooMoo",
+            "version": "1",
+            "chainId": 137,
+            "verifyingContract": "0x1837a909E835116fEc6C53Ee4C8e9230E1541d7F"
+          },
+          "types": {
+            "Vouch": [
+              {
+                "name": "rating",
+                "type": "string"
+              },
+              {
+                "name": "skills",
+                "type": "string[]"
+              },
+              {
+                "name": "note",
+                "type": "string"
+              },
+              {
+                "name": "vouchFor",
+                "type": "address"
+              },
+              {
+                "name": "vouchFrom",
+                "type": "address"
+              }
+            ]
+          },
+          "message": {
+            "rating": "🤩",
+            "skills": [
+              "Product"
+            ],
+            "note": "ad",
+            "vouchFor": "0xE52772e599b3fa747Af9595266b527A31611cebd",
+            "vouchFrom": "0x3a86E9C1947f9ff49Abf2bCC3301008165636a5D"
+          },
+          "sign": "0x388294c472f1226b61889d3c665f5f9556b7a6eb7398c053dc63adab9391e7f72b842be9b9fd21b5eb6ebb846a7e294e3097fd7804b6462ba135a0bfa9de7c511c"
+        }
+      }
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Exp",
+      "value": 40,
+      "rewards": [
+        {
+          "id": "123",
+          "title": "Join our Discord",
+          "score": 10,
+          "claimAddress": "0x123",
+          "otp": "123",
+          "sign": "0x114f2f119495512e96eae22acce964f452d08f569be006bd9fe81eeb4f55f78f48566ba9432467d5b2abda07e5c1dde03f16779c8dfa9adb285a827af6c552cf1b"
+        },
+        {
+          "id": "234",
+          "title": "Follow our Twitter",
+          "score": 30,
+          "claimAddress": "0x123",
+          "otp": "123",
+          "sign": "0x114f2f119495512e96eae22acce964f452d08f569be006bd9fe81eeb4f55f78f48566ba9432467d5b2abda07e5c1dde03f16779c8dfa9adb285a827af6c552cf1b"
+        }
+      ]
+    }
+  ],
+  "invertory": [
+    {
+      "type": "tshirt",
+      "level": "2",
+      "image": "ipfs://..."
+    },
+    {
+      "type": "tshirt",
+      "level": "3",
+      "image": "ipfs://...",
+      "rewardId": "1233"
+    },
+    {
+      "type": "tshirt",
+      "level": "1",
+      "image": "ipfs://...",
+      "rewradId": "222"
+    }
+  ]
+}

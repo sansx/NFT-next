@@ -25,7 +25,7 @@ const Home = () => {
         "0x751881662ed3243eb8ff036e6057ce9cc4be435a65692d135a6571524c189fe9",
         "0x91dd1ca93a01f038e59c58f1649eb4031363ed4b2d596cb18637e1db136e78b7",
         "0x22b2cdee75463e25d6db63958804a0c9f0680edecfb818523fa4bf426bad5036"
-      ], signMessage, address, "www.google.com"
+      ], signMessage, address, "https://nft-next-xi.vercel.app/api/nftProfile"
     ],
     enabled: !!signMessage
   })
